@@ -1,4 +1,4 @@
-# Random
+# Stuff
 
 A repository to store whatever it is I am learning at the time... be it code, languages, or any of the things I am interested in. 
 
