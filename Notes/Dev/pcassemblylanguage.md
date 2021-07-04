@@ -102,6 +102,7 @@ CPUs perform are generally very simple. Instructions may require the data they a
 locations in the CPU itself called *registers*. The CPU can access data in registers much faster than data in
 memory. However, the number of registers in a CPU is limited, so the programmer must take care to keep only
 currently used data in registers
+
 The instructions a type of CPU execute make up the CPU's machine language. Machine programs have a much more basic
 structure than higher-level languages. Machine language instructions are encoded as raw numbers, not in friendly
 A CPU must be able to decode an instruction's purpose very quickly to run efficiently. Machine language is designed
@@ -110,6 +111,7 @@ converted to the nativa machine language of the CPU to run on the computer. A co
 programs written in programming languages into the machine language of a particular coputer architecture. In general,
 every type of CPU has its own unique machine language. This is one reason why programs written for a Mac can not run
 on an IBM-type PC.
+
 Computers use a *clocK* to synchronize the execution of the instructions. The clock pulses at a fixed frequency
 (known as the *clock speed*). When you buy a 1.6 GHz computer, 1.6 GHz is the frequency of this clock. The clock
 does not keep track of minutes and seconds. It simply beats at a constant rate. The electronics of the CPU
